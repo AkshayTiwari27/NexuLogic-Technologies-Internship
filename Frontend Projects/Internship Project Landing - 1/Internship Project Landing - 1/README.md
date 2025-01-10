@@ -1,6 +1,6 @@
 # NexuLogic-Technologies-Internship
 
-![NexuLogic Logo](https://your-logo-url.com/logo.png)
+![NexuLogic Logo](https://nexuslogictech.com/assets/images/Logo-transparent.png)
 
 Welcome to the **NexuLogic Technologies Internship** repository! This repository showcases the frontend projects and contributions made during my internship at NexuLogic Technologies. The focus of this internship was on developing responsive, modern, and user-friendly web applications using cutting-edge frontend technologies.
 
@@ -38,8 +38,6 @@ During my internship at NexuLogic Technologies, I worked on enhancing and develo
 - Interactive navbar with smooth scrolling
 - Dynamic content sections for performances, merchandise, songs, and more
 
-**Preview:**
-![LandingPageView1 Screenshot](https://your-screenshot-url.com/landingpageview1.png)
 
 **Usage:**
 ```bash
@@ -62,8 +60,6 @@ npm start
 - Sticky navbar optimized for mobile devices
 - Iconography for better visual communication
 
-**Preview:**
-![LandingPageView2 Screenshot](https://your-screenshot-url.com/landingpageview2.png)
 
 **Usage:**
 ```bash
