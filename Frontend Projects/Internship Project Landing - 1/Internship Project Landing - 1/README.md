@@ -29,6 +29,14 @@ During my internship at NexuLogic Technologies, I worked on enhancing and develo
 
 ### 🎨 LandingPageView1
 
+
+---
+## Demo
+
+- Check out the live demo [here](https://landing-page-cj3l433uo-akshay-tiwaris-projects-3a5939cb.vercel.app/landing1).
+
+---
+
 **Description:**  
 `LandingPageView1` is a responsive landing page designed to showcase an artist's profile, including performances, merchandise, song sales, and fan interactions. The page features smooth animations, modern design elements, and interactive components to enhance user engagement.
 
@@ -47,8 +55,17 @@ npm start
 
 
 ```
+---
 
 ### 🎨 LandingPageView2
+
+---
+## Demo
+
+- Check out the live demo [here](https://landing-page-cj3l433uo-akshay-tiwaris-projects-3a5939cb.vercel.app/landing2).
+
+---
+
 
 **Description:**  
 `LandingPageView2` is an enhanced version of the first landing page with improved UI/UX elements. It incorporates advanced animations, refined color schemes, and optimized layouts to provide a more engaging user experience.
