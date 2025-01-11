@@ -21,9 +21,6 @@ Welcome to the **NexuLogic Technologies Internship** repository! This repository
 - [Contact](#contact)
 - [License](#license)
 
-## 🧑‍💼 About the Internship
-
-During my internship at NexuLogic Technologies, I worked on enhancing and developing frontend components for various web applications. The primary objective was to create visually appealing, responsive, and interactive user interfaces that align with modern UI/UX standards. I collaborated with a team of experienced developers, participated in code reviews, and utilized best practices in frontend development.
 
 ## 📁 Projects
 
