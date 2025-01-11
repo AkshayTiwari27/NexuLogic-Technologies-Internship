@@ -1,12 +1,9 @@
 # NexuLogic-Technologies-Internship
 
-![NexuLogic Logo](https://nexuslogictech.com/assets/images/Logo-transparent.png)
-
-Welcome to the **NexuLogic Technologies Internship** repository! This repository showcases the frontend projects and contributions made during my internship at NexuLogic Technologies. The focus of this internship was on developing responsive, modern, and user-friendly web applications using cutting-edge frontend technologies.
+Welcome to my internship repository at NexuLogic Technologies! This is my **first frontend project** during my internship, where I've had the opportunity to develop and enhance my skills in modern web development.
 
 ## 🚀 Table of Contents
 
-- [About the Internship](#about-the-internship)
 - [Projects](#projects)
   - [LandingPageView1](#landingpageview1)
   - [LandingPageView2](#landingpageview2)
