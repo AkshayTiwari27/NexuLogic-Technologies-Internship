@@ -134,13 +134,18 @@ Contributions are welcome! If you'd like to contribute:
 5. Open a pull request.
 
 ---
+## 📫 Contact
+
+- **Name:** Akshay Tiwari
+- **Email:** tiwariakshay590@gmail.com
+- **LinkedIn:** [linkedin.com/in/akshaytiwari2709](https://www.linkedin.com/in/akshay-tiwari2709/)
+- **GitHub:** [github.com/AkshayTiwari27](https://github.com/AkshayTiwari27)
+
+Feel free to reach out for any queries or collaborations!
+---
 
 ## License
 
 This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
 
 ---
-
-## Contact
-
-For any questions or suggestions, feel free to reach out to the **NexusLogic Technologies** team.
