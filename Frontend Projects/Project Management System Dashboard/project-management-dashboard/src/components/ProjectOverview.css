@@ -1,0 +1,160 @@
+/* Container Styling */
+.project-overview {
+    font-family: 'Arial', sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1000px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading */
+  .heading {
+    text-align: center;
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  /* Add Project Form */
+  .add-project-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .add-project-form input,
+  .add-project-form select,
+  .add-project-form button {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+  }
+  
+  .add-project-form input:focus,
+  .add-project-form select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .add-project-form button {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-project-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Table */
+  .project-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .project-table th,
+  .project-table td {
+    padding: 15px 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .project-table th {
+    background-color: #f8f9fa;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .project-row:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .project-row:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Status Badges */
+  .status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+  }
+  
+  .status.ongoing {
+    background-color: #28a745;
+  }
+  
+  .status.completed {
+    background-color: #007bff;
+  }
+  
+  .status.onhold {
+    background-color: #dc3545;
+  }
+  
+  /* Action Buttons */
+  .project-row button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-row button.edit {
+    background-color: #ffc107;
+    color: #ffffff;
+  }
+  
+  .project-row button.edit:hover {
+    background-color: #e0a800;
+  }
+  
+  .project-row button.delete {
+    background-color: #dc3545;
+    color: #ffffff;
+  }
+  
+  .project-row button.delete:hover {
+    background-color: #c82333;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .project-table th,
+    .project-table td {
+      padding: 10px 5px;
+      font-size: 12px;
+    }
+  
+    .add-project-form {
+      flex-direction: column;
+    }
+  
+    .add-project-form input,
+    .add-project-form select,
+    .add-project-form button {
+      width: 100%;
+    }
+  }
+  
