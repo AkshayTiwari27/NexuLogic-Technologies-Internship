@@ -19,24 +19,27 @@ The React News App provides users an intuitive interface to:
 - **Error Handling:** Implements an error boundary to gracefully handle runtime errors.
 
 ## Project Structure
+
+```
 react-news-app/
 ├── .env
 ├── package.json
 └── src/
-├── components/
-│ ├── ErrorBoundary.jsx
-│ ├── Navbar.jsx
-│ ├── NewsItem.jsx
-│ ├── NewsList.jsx
-│ └── SearchBar.jsx
-├── hooks/
-│ └── useNewsApi.js
-├── pages/
-│ ├── Article.jsx
-│ └── Home.jsx
-├── App.js
-└── index.js
+    ├── components/
+    │   ├── ErrorBoundary.jsx
+    │   ├── Navbar.jsx
+    │   ├── NewsItem.jsx
+    │   ├── NewsList.jsx
+    │   └── SearchBar.jsx
+    ├── hooks/
+    │   └── useNewsApi.js
+    ├── pages/
+    │   ├── Article.jsx
+    │   └── Home.jsx
+    ├── App.js
+    └── index.js
 
+```
 
 - **components/**: Contains reusable UI components such as the Navbar, News List & Item, Search Bar, and Error Boundary.
 - **hooks/**: Holds custom hooks, for instance, to fetch news using Axios.
@@ -51,15 +54,15 @@ react-news-app/
 ## Getting Started
 
 1. **Clone the Repository**
-
-- git clone https://your-repository-url.git
-- cd react-news-app
-
+```
+  git clone https://your-repository-url.git
+  cd react-news-app
+```
 
 2. **Install Dependencies**
-
-- npm install
-  
+```
+ npm install
+ ```
 This installs:
 - **react & react-dom:** Core libraries for building the user interface.
 - **react-router-dom:** For client-side routing.
@@ -68,23 +71,23 @@ This installs:
 3. **Setup the `.env` File**
 
 In the project root (same level as package.json), create a `.env` file and add your NewsAPI key:
-
-- REACT_APP_NEWS_API_KEY=5668b0434cd54c26af8bab9666886098
-
+```
+ REACT_APP_NEWS_API_KEY=5668b0434cd54c26af8bab9666886098
+```
 Replace the above key with your actual NewsAPI key (obtainable from the NewsAPI website).
 
 4. **Start the Development Server**
-
-- npm start
-
+```
+ npm start
+```
 The app will run locally at [http://localhost:3000](http://localhost:3000). Restart the server if you update the `.env` file.
 
 ## Building for Production
 
 To create an optimized production build, run:
-
-- npm run build
-
+```
+ npm run build
+```
 This command generates a production-ready version of your app in the `build/` directory.
 
 ## Additional Notes
