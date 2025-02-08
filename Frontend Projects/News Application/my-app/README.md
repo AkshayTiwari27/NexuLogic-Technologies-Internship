@@ -2,6 +2,11 @@
 
 A React-based news application that fetches and displays real-time news articles using the NewsAPI. This project was developed as part of an internship to demonstrate modern React practices, including routing, custom hooks, error boundaries, and modular component design.
 
+## Demo
+
+Check out the live demo of the project here: [React News App Demo](https://your-demo-link.com)
+
+
 ## Overview
 
 The React News App provides users an intuitive interface to:
