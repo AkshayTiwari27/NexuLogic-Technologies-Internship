@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# React News App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based news application that fetches and displays real-time news articles using the NewsAPI. This project was developed as part of an internship to demonstrate modern React practices, including routing, custom hooks, error boundaries, and modular component design.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The React News App provides users an intuitive interface to:
+- Browse the latest news headlines.
+- Filter articles by category (general, business, entertainment, etc.).
+- Search for articles by keywords.
+- View detailed news articles with images and content excerpts.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Real-Time News Fetching:** Integrates with NewsAPI to fetch up-to-date news.
+- **Category Filtering:** Navigate news by various categories using URL query parameters.
+- **Article Search:** Search functionality to explore news based on keywords.
+- **Detailed Article View:** Each article provides a detailed view with additional information and a link to the full story.
+- **Error Handling:** Implements an error boundary to gracefully handle runtime errors.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Structure
+react-news-app/
+├── .env
+├── package.json
+└── src/
+├── components/
+│ ├── ErrorBoundary.jsx
+│ ├── Navbar.jsx
+│ ├── NewsItem.jsx
+│ ├── NewsList.jsx
+│ └── SearchBar.jsx
+├── hooks/
+│ └── useNewsApi.js
+├── pages/
+│ ├── Article.jsx
+│ └── Home.jsx
+├── App.js
+└── index.js
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **components/**: Contains reusable UI components such as the Navbar, News List & Item, Search Bar, and Error Boundary.
+- **hooks/**: Holds custom hooks, for instance, to fetch news using Axios.
+- **pages/**: Contains main pages for navigation (Home and Article view).
+- **.env:** Stores environment variables (e.g., NewsAPI key).
 
-### `npm run build`
+## Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (v12 or later)
+- npm (or yarn)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the Repository**
 
-### `npm run eject`
+- git clone https://your-repository-url.git
+- cd react-news-app
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Install Dependencies**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- npm install
+  
+This installs:
+- **react & react-dom:** Core libraries for building the user interface.
+- **react-router-dom:** For client-side routing.
+- **axios:** For making HTTP requests to NewsAPI.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Setup the `.env` File**
 
-## Learn More
+In the project root (same level as package.json), create a `.env` file and add your NewsAPI key:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- REACT_APP_NEWS_API_KEY=5668b0434cd54c26af8bab9666886098
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Replace the above key with your actual NewsAPI key (obtainable from the NewsAPI website).
 
-### Code Splitting
+4. **Start the Development Server**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- npm start
 
-### Analyzing the Bundle Size
+The app will run locally at [http://localhost:3000](http://localhost:3000). Restart the server if you update the `.env` file.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Building for Production
 
-### Making a Progressive Web App
+To create an optimized production build, run:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- npm run build
 
-### Advanced Configuration
+This command generates a production-ready version of your app in the `build/` directory.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Additional Notes
 
-### Deployment
+- **Environment Variables:** If you're using Create React App, you do not need to install dotenv separately. Environment variables from the `.env` file in the root will be automatically available with the `REACT_APP_` prefix.
+- **Styling:** You can adjust or integrate any CSS framework for a more polished look.
+- **Error Boundaries:** The app includes an Error Boundary to help manage unexpected errors gracefully within the UI.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## License
 
-### `npm run build` fails to minify
+This project is developed as part of an internship program and is intended for learning and development purposes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy Coding!
+
