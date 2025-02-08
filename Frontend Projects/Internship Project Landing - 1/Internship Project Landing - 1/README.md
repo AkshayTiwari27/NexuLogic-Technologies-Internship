@@ -196,7 +196,7 @@ Contributions are welcome! If you have suggestions for improvements or want to c
 ## 📫 Contact
 
 - **Name:** Akshay Tiwari
-- **Email:** riwariakshay590@gmail.com
+- **Email:** tiwariakshay590@gmail.com
 - **LinkedIn:** [linkedin.com/in/akshaytiwari2709](https://www.linkedin.com/in/akshay-tiwari2709/)
 - **GitHub:** [github.com/AkshayTiwari27](https://github.com/AkshayTiwari27)
 
